@@ -14,7 +14,7 @@
  <playbackTrackEnabled>false</playbackTrackEnabled>
  <playbackTrackVolume>0</playbackTrackVolume>
  <mode>pattern</mode>
- <humanize_time>0</humanize_time>
+ <humanize_time>0.1</humanize_time>
  <humanize_velocity>0</humanize_velocity>
  <swing_factor>0</swing_factor>
  <componentList>

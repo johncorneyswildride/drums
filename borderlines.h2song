@@ -14,7 +14,7 @@
  <playbackTrackEnabled>false</playbackTrackEnabled>
  <playbackTrackVolume>0</playbackTrackVolume>
  <mode>song</mode>
- <humanize_time>0</humanize_time>
+ <humanize_time>0.1</humanize_time>
  <humanize_velocity>0</humanize_velocity>
  <swing_factor>0</swing_factor>
  <componentList>
@@ -1820,27 +1820,6 @@
    </noteList>
   </pattern>
   <pattern>
-   <name>crash</name>
-   <category>not_categorized</category>
-   <size>192</size>
-   <info></info>
-   <noteList>
-    <note>
-     <position>0</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <probability>1</probability>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>9</instrument>
-     <note_off>false</note_off>
-    </note>
-   </noteList>
-  </pattern>
-  <pattern>
    <name>ride</name>
    <category>not_categorized</category>
    <size>384</size>
@@ -2916,6 +2895,19 @@
     <note>
      <position>240</position>
      <leadlag>0</leadlag>
+     <velocity>0.65</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <probability>1</probability>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>5</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>264</position>
+     <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
@@ -2989,7 +2981,20 @@
     <note>
      <position>240</position>
      <leadlag>0</leadlag>
-     <velocity>0.75</velocity>
+     <velocity>0.65</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <probability>1</probability>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>5</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>264</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -3127,6 +3132,19 @@
     <note>
      <position>240</position>
      <leadlag>0</leadlag>
+     <velocity>0.65</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <probability>1</probability>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>5</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>264</position>
+     <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
@@ -3185,7 +3203,6 @@
   </group>
   <group>
    <patternID>main</patternID>
-   <patternID>crash</patternID>
   </group>
   <group>
    <patternID>main</patternID>
@@ -3302,7 +3319,7 @@
    <patternID>main</patternID>
   </group>
   <group>
-   <patternID>main</patternID>
+   <patternID>fill 2</patternID>
   </group>
   <group>
    <patternID>bridge hats</patternID>
