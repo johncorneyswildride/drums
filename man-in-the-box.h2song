@@ -13,7 +13,7 @@
  <playbackTrackFilename></playbackTrackFilename>
  <playbackTrackEnabled>false</playbackTrackEnabled>
  <playbackTrackVolume>0</playbackTrackVolume>
- <mode>pattern</mode>
+ <mode>song</mode>
  <humanize_time>0.1</humanize_time>
  <humanize_velocity>0</humanize_velocity>
  <swing_factor>0</swing_factor>
@@ -3359,30 +3359,6 @@
    <patternID>verse</patternID>
   </group>
   <group>
-   <patternID>verse</patternID>
-  </group>
-  <group>
-   <patternID>verse</patternID>
-  </group>
-  <group>
-   <patternID>verse</patternID>
-  </group>
-  <group>
-   <patternID>verse</patternID>
-  </group>
-  <group>
-   <patternID>verse</patternID>
-  </group>
-  <group>
-   <patternID>verse</patternID>
-  </group>
-  <group>
-   <patternID>verse</patternID>
-  </group>
-  <group>
-   <patternID>verse</patternID>
-  </group>
-  <group>
    <patternID>verse blues fill</patternID>
   </group>
   <group>
@@ -3569,7 +3545,40 @@
   </fx>
  </ladspa>
  <BPMTimeLine/>
- <timeLineTag/>
+ <timeLineTag>
+  <newTAG>
+   <BAR>0</BAR>
+   <TAG>count-in</TAG>
+  </newTAG>
+  <newTAG>
+   <BAR>1</BAR>
+   <TAG>intro</TAG>
+  </newTAG>
+  <newTAG>
+   <BAR>9</BAR>
+   <TAG>verse</TAG>
+  </newTAG>
+  <newTAG>
+   <BAR>25</BAR>
+   <TAG>chorus</TAG>
+  </newTAG>
+  <newTAG>
+   <BAR>33</BAR>
+   <TAG>post-chorus</TAG>
+  </newTAG>
+  <newTAG>
+   <BAR>37</BAR>
+   <TAG>verse</TAG>
+  </newTAG>
+  <newTAG>
+   <BAR>53</BAR>
+   <TAG>chorus</TAG>
+  </newTAG>
+  <newTAG>
+   <BAR>61</BAR>
+   <TAG>outro</TAG>
+  </newTAG>
+ </timeLineTag>
  <automationPaths>
   <path adjust="velocity"/>
  </automationPaths>
