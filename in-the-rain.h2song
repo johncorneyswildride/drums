@@ -4898,10 +4898,10 @@
    <patternID>crash</patternID>
   </group>
   <group>
-   <patternID>verse</patternID>
+   <patternID>verse no snare</patternID>
   </group>
   <group>
-   <patternID>verse</patternID>
+   <patternID>verse no snare</patternID>
   </group>
  </patternSequence>
  <ladspa>
